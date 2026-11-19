@@ -1,4 +1,4 @@
-# Diffchir -Simulation de Diffraction sur Surfaces Chirales (Modèle Scalaire)
+# Diffchir - Simulation de Diffraction sur Surfaces Chirales (Modèle Scalaire)
 
 Outil numérique en Python qui automatise le calcul de figures de diffraction en champ lointain générées par des surfaces structurées chirales 2D.
 
