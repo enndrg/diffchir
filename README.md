@@ -4,7 +4,7 @@ Outil numérique en Python qui automatise le calcul de figures de diffraction en
 
 ## Cadre Physique
 
-Le modèle repose sur l'optique de Fourier scalaire :
+Le modèle est basé sur le modèle scalaire de la lumière et la transformée de Fourrier 2D.
 * **Diffraction de Fraunhofer :** L'amplitude diffractée $U(u,v)$ dans le plan focal d'une lentille est calculée via la Transformée de Fourier 2D (FFT) de la fonction de transmittance complexe $t(x,y)$ de la surface :
   $$U(u, v) \propto \mathcal{F}\{t(x, y)\}$$
 * **Non-Symétrie et Chiralité :** Selon la loi de Friedel, un masque purement réel produit une figure de diffraction centrosymétrique ($I(u,v) = I(-u,-v)$), masquant la chiralité géométrique. Pour rendre la signature chirale observable directement dans l'intensité diffractée, ce code implémente des **masques de phase** ($t(x,y) = e^{i\phi(x,y)}$) simulant un relief gravé sur la surface.
